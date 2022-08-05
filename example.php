@@ -13,8 +13,8 @@ include_once('Autoloader/ConcretePathsProvider.php');
 $pathsProvider = new ConcretePathsProvider;
 
 /*Esta es una forma de uso:*/
-// $pathsProvider->appendPath('TestClassesFolder01/');
-// $pathsProvider->appendPath('TestClassesFolder02/');
+// $pathsProvider->appendPath('Autoloader/TestClassesFolder01/');
+// $pathsProvider->appendPath('Autoloader/TestClassesFolder02/');
 
 /*O esta es otra forma:*/
 $pathsProvider->setFile('paths.ini');
